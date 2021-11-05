@@ -12,6 +12,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>TISSE | POSTS RECENTES</title>
 </head>
 <body>
@@ -59,7 +60,7 @@
                 <li class="breadcrumb-item d-sm-block d-none font-inter fw-normal text-Prata-2 active" aria-current="page">Posts</li>
             </ol>
         </nav>
-        <div class="title-page">
+        <div data-aos="fade-down" data-aos-delay="200" class="title-page">
             <h1 class="font-inter fw-bold fz-44 py-4 m-0 text-break">Você está vendo os posts mais recentes</h1>
         </div>
         <section class="tags py-3">
@@ -110,26 +111,26 @@
           </div>
         </section>
         <section class="posts mb-awe-90 mt-5 alinhar min-h-600">
-          <div class="border-bottom border-1 border-Neve-Extra-Dark">
+          <div class="border-bottom  border-1 border-Neve-Extra-Dark">
             <h5 class="font-inter fw-light text-Gray fz-26 my-3 ">Últimos posts</h5>
           </div>
-          <div class="border-bottom border-1 border-Neve-Extra-Dark pt-3">
+          <div data-aos="flip-down" data-aos-delay="200" class="border-bottom border-1 border-Neve-Extra-Dark pt-3">
             <span class="font-inter fz-14 text-Prata-2">por <a href="#" class="fw-bold text-Prata-2">Sérgio Trindade</a> , publicado em <span class="fw-bold">16.jul.2021</span></span>
             <h3 class="my-3 text-Aco font-inter fz-21 fw-bold">Simão celerado: do nascimento à morte da democracia (VI) – o caso Alan Gideon</h3>
           </div>
-          <div class="border-bottom border-1 border-Neve-Extra-Dark pt-3">
+          <div data-aos="flip-down" data-aos-delay="300" class="border-bottom border-1 border-Neve-Extra-Dark pt-3">
             <span class="font-inter fz-14 text-Prata-2">por <a href="#" class="fw-bold text-Prata-2">Sérgio Trindade</a> , publicado em <span class="fw-bold">16.jul.2021</span></span>
             <h3 class="my-3 text-Aco font-inter fz-21 fw-bold">Simão celerado: do nascimento à morte da democracia (VI) – o caso Alan Gideon</h3>
           </div>
-          <div class="border-bottom border-1 border-Neve-Extra-Dark pt-3">
+          <div data-aos="flip-down" data-aos-delay="400" class="border-bottom border-1 border-Neve-Extra-Dark pt-3">
             <span class="font-inter fz-14 text-Prata-2">por <a href="#" class="fw-bold text-Prata-2">Sérgio Trindade</a> , publicado em <span class="fw-bold">16.jul.2021</span></span>
             <h3 class="my-3 text-Aco font-inter fz-21 fw-bold">Simão celerado: do nascimento à morte da democracia (VI) – o caso Alan Gideon</h3>
           </div>
-          <div class="border-bottom border-1 border-Neve-Extra-Dark pt-3">
+          <div data-aos="flip-down" data-aos-delay="500" class="border-bottom border-1 border-Neve-Extra-Dark pt-3">
             <span class="font-inter fz-14 text-Prata-2">por <a href="#" class="fw-bold text-Prata-2">Sérgio Trindade</a> , publicado em <span class="fw-bold">16.jul.2021</span></span>
             <h3 class="my-3 text-Aco font-inter fz-21 fw-bold">Simão celerado: do nascimento à morte da democracia (VI) – o caso Alan Gideon</h3>
           </div>
-          <div class="border-bottom border-1 border-Neve-Extra-Dark pt-3">
+          <div data-aos="flip-down" data-aos-delay="600" class="border-bottom border-1 border-Neve-Extra-Dark pt-3">
             <span class="font-inter fz-14 text-Prata-2">por <a href="#" class="fw-bold text-Prata-2">Sérgio Trindade</a> , publicado em <span class="fw-bold">16.jul.2021</span></span>
             <h3 class="my-3 text-Aco font-inter fz-21 fw-bold">Simão celerado: do nascimento à morte da democracia (VI) – o caso Alan Gideon</h3>
           </div>
@@ -171,6 +172,10 @@
       </div>
     </footer>
     <script src="js/bootstrap.bundle.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     
 </body>
 </html>

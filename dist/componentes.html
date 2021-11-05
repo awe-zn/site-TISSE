@@ -12,6 +12,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>TISSE | COMPONENTES</title>
 </head>
 <body>
@@ -59,14 +60,16 @@
                 <li class="breadcrumb-item font-inter fw-normal text-Prata-2 active" aria-current="page">Componentes</li>
             </ol>
         </nav>
-        <div class="title-page">
+        <div data-aos="fade-down" data-aos-delay="200" class="title-page">
             <h1 class="font-inter fw-bold fz-44 py-4 m-0 text-break">Pesquisadores</h1>
         </div>
         <section class="pesquisadores py-3">
                 <h2 class="font-inter fw-normal fz-26 my-3">Pesquisadores atuais</h2>
                 <div class="row gy-5">
                     <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
-                        <img class="w-100 h-auto" src="image/Mark.png" alt="">
+                      <div class="lazy">
+                        <img class="w-100 h-auto" data-src="image/Mark.png" alt="">
+                      </div>
                         <div class="my-3">
                           <h3 class="font-inter fw-bold fz-18 text-Aco m-0">Mark Zukerberg</h3>
                           <span class="text-Prata-2 fz-14 fw-normal d-block">Pesquisador Externo</span>
@@ -77,60 +80,70 @@
                             <a class="font-lato fw-normal fz-14 text-break" href="http://lattes.cnpq.br/9431509714787669">http://lattes.cnpq.br/9431509714787669</a>
                       </div>
                       <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
-                        <img class="w-100 h-auto" src="image/Mark.png" alt="">
-                        <div class="my-3">
-                          <h3 class="font-inter fw-bold fz-18 text-Aco m-0">Mark Zukerberg</h3>
-                          <span class="text-Prata-2 fz-14 fw-normal d-block">Pesquisador Externo</span>
+                        <div class="lazy">
+                          <img class="w-100 h-auto" data-src="image/Mark.png" alt="">
                         </div>
-                        <div class="mb-3">
-                          <p class="font-lato fw-normal text-Aco fz-14">Pesquisa focada em aprendizado de máquinas, tecnologias cognitivas e aplicabilidade em educação contemporânea.</p>
+                          <div class="my-3">
+                            <h3 class="font-inter fw-bold fz-18 text-Aco m-0">Mark Zukerberg</h3>
+                            <span class="text-Prata-2 fz-14 fw-normal d-block">Pesquisador Externo</span>
+                          </div>
+                          <div class="mb-3">
+                            <p class="font-lato fw-normal text-Aco fz-14">Pesquisa focada em aprendizado de máquinas, tecnologias cognitivas e aplicabilidade em educação contemporânea.</p>
+                          </div>
+                              <a class="font-lato fw-normal fz-14 text-break" href="http://lattes.cnpq.br/9431509714787669">http://lattes.cnpq.br/9431509714787669</a>
                         </div>
-                            <a class="font-lato fw-normal fz-14 text-break" href="http://lattes.cnpq.br/9431509714787669">http://lattes.cnpq.br/9431509714787669</a>
-                      </div>
-                      <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
-                        <img class="w-100 h-auto" src="image/Mark.png" alt="">
-                        <div class="my-3">
-                          <h3 class="font-inter fw-bold fz-18 text-Aco m-0">Mark Zukerberg</h3>
-                          <span class="text-Prata-2 fz-14 fw-normal d-block">Pesquisador Externo</span>
-                        </div>
-                        <div class="mb-3">
-                          <p class="font-lato fw-normal text-Aco fz-14">Pesquisa focada em aprendizado de máquinas, tecnologias cognitivas e aplicabilidade em educação contemporânea.</p>
-                        </div>
-                            <a class="font-lato fw-normal fz-14 text-break" href="http://lattes.cnpq.br/9431509714787669">http://lattes.cnpq.br/9431509714787669</a>
-                      </div>
-                      <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
-                        <img class="w-100 h-auto" src="image/Mark.png" alt="">
-                        <div class="my-3">
-                          <h3 class="font-inter fw-bold fz-18 text-Aco m-0">Mark Zukerberg</h3>
-                          <span class="text-Prata-2 fz-14 fw-normal d-block">Pesquisador Externo</span>
-                        </div>
-                        <div class="mb-3">
-                          <p class="font-lato fw-normal text-Aco fz-14">Pesquisa focada em aprendizado de máquinas, tecnologias cognitivas e aplicabilidade em educação contemporânea.</p>
-                        </div>
-                            <a class="font-lato fw-normal fz-14 text-break" href="http://lattes.cnpq.br/9431509714787669">http://lattes.cnpq.br/9431509714787669</a>
-                      </div>
-                      <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
-                        <img class="w-100 h-auto" src="image/Mark.png" alt="">
-                        <div class="my-3">
-                          <h3 class="font-inter fw-bold fz-18 text-Aco m-0">Mark Zukerberg</h3>
-                          <span class="text-Prata-2 fz-14 fw-normal d-block">Pesquisador Externo</span>
-                        </div>
-                        <div class="mb-3">
-                          <p class="font-lato fw-normal text-Aco fz-14">Pesquisa focada em aprendizado de máquinas, tecnologias cognitivas e aplicabilidade em educação contemporânea.</p>
-                        </div>
-                            <a class="font-lato fw-normal fz-14 text-break" href="http://lattes.cnpq.br/9431509714787669">http://lattes.cnpq.br/9431509714787669</a>
-                      </div>
-                      <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
-                        <img class="w-100 h-auto" src="image/Mark.png" alt="">
-                        <div class="my-3">
-                          <h3 class="font-inter fw-bold fz-18 text-Aco m-0">Mark Zukerberg</h3>
-                          <span class="text-Prata-2 fz-14 fw-normal d-block">Pesquisador Externo</span>
-                        </div>
-                        <div class="mb-3">
-                          <p class="font-lato fw-normal text-Aco fz-14">Pesquisa focada em aprendizado de máquinas, tecnologias cognitivas e aplicabilidade em educação contemporânea.</p>
-                        </div>
-                            <a class="font-lato fw-normal fz-14 text-break" href="http://lattes.cnpq.br/9431509714787669">http://lattes.cnpq.br/9431509714787669</a>
-                      </div>
+                        <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+                          <div class="lazy">
+                            <img class="w-100 h-auto" data-src="image/Mark.png" alt="">
+                          </div>
+                            <div class="my-3">
+                              <h3 class="font-inter fw-bold fz-18 text-Aco m-0">Mark Zukerberg</h3>
+                              <span class="text-Prata-2 fz-14 fw-normal d-block">Pesquisador Externo</span>
+                            </div>
+                            <div class="mb-3">
+                              <p class="font-lato fw-normal text-Aco fz-14">Pesquisa focada em aprendizado de máquinas, tecnologias cognitivas e aplicabilidade em educação contemporânea.</p>
+                            </div>
+                                <a class="font-lato fw-normal fz-14 text-break" href="http://lattes.cnpq.br/9431509714787669">http://lattes.cnpq.br/9431509714787669</a>
+                          </div>
+                          <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+                            <div class="lazy">
+                              <img class="w-100 h-auto" data-src="image/Mark.png" alt="">
+                            </div>
+                              <div class="my-3">
+                                <h3 class="font-inter fw-bold fz-18 text-Aco m-0">Mark Zukerberg</h3>
+                                <span class="text-Prata-2 fz-14 fw-normal d-block">Pesquisador Externo</span>
+                              </div>
+                              <div class="mb-3">
+                                <p class="font-lato fw-normal text-Aco fz-14">Pesquisa focada em aprendizado de máquinas, tecnologias cognitivas e aplicabilidade em educação contemporânea.</p>
+                              </div>
+                                  <a class="font-lato fw-normal fz-14 text-break" href="http://lattes.cnpq.br/9431509714787669">http://lattes.cnpq.br/9431509714787669</a>
+                            </div>
+                            <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+                              <div class="lazy">
+                                <img class="w-100 h-auto" data-src="image/Mark.png" alt="">
+                              </div>
+                                <div class="my-3">
+                                  <h3 class="font-inter fw-bold fz-18 text-Aco m-0">Mark Zukerberg</h3>
+                                  <span class="text-Prata-2 fz-14 fw-normal d-block">Pesquisador Externo</span>
+                                </div>
+                                <div class="mb-3">
+                                  <p class="font-lato fw-normal text-Aco fz-14">Pesquisa focada em aprendizado de máquinas, tecnologias cognitivas e aplicabilidade em educação contemporânea.</p>
+                                </div>
+                                    <a class="font-lato fw-normal fz-14 text-break" href="http://lattes.cnpq.br/9431509714787669">http://lattes.cnpq.br/9431509714787669</a>
+                              </div>
+                              <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+                                <div class="lazy">
+                                  <img class="w-100 h-auto" data-src="image/Mark.png" alt="">
+                                </div>
+                                  <div class="my-3">
+                                    <h3 class="font-inter fw-bold fz-18 text-Aco m-0">Mark Zukerberg</h3>
+                                    <span class="text-Prata-2 fz-14 fw-normal d-block">Pesquisador Externo</span>
+                                  </div>
+                                  <div class="mb-3">
+                                    <p class="font-lato fw-normal text-Aco fz-14">Pesquisa focada em aprendizado de máquinas, tecnologias cognitivas e aplicabilidade em educação contemporânea.</p>
+                                  </div>
+                                      <a class="font-lato fw-normal fz-14 text-break" href="http://lattes.cnpq.br/9431509714787669">http://lattes.cnpq.br/9431509714787669</a>
+                                </div>
                 </div>
                 <div class="pagination my-5">
                   <ul class="d-flex p-0">
@@ -170,6 +183,11 @@
       </div>
     </footer>
     <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     
 </body>
 </html>

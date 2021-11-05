@@ -1,3 +1,10 @@
+/*
+Theme Name: SITE-TISSE
+Author: Franklin Felipe
+Author URI: https://www.linkedin.com/in/franklin-felipe-b06036151/
+Description: Tema desenvolvido pela AWE
+*/
+
 
 @charset "UTF-8";
 /*!
@@ -13135,7 +13142,7 @@ footer .active {
 .pagination ul {
   list-style: none;
 }
-.pagination ul .current a {
+.pagination .current {
   display: inline-block;
   text-align: center;
   width: 30px;
@@ -13144,13 +13151,11 @@ footer .active {
   border-radius: 50%;
   color: #2648A1;
 }
-.pagination ul li {
+.pagination a {
   font-size: 18px;
   font-family: "Inter", sans-serif;
   font-weight: normal;
   margin: 0 8px;
-}
-.pagination ul li a {
   color: #273444;
   text-decoration: none;
 }
@@ -13326,3 +13331,4 @@ footer .active {
     transform: rotatez(360deg);
   }
 }
+
